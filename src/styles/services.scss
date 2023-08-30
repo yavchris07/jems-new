@@ -1,0 +1,65 @@
+$base-color: #c6538c;
+$blac-color:#212121;
+// $back-opacity: rgb(33, 33, 33,.9);
+$back-opacity: rgb(0, 0, 0,.9);
+$white-kolor: #fff;
+$white-opacity:#f9f9f9;
+$white-black:#f7f7f7;
+
+.services{
+    .body{
+        background: none;
+        width: 80%;
+        margin: auto;
+
+        h1{
+            font-size: 24px;
+        }
+        .service-area{
+            .advantage-area{
+                background: none;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 3px;
+
+                .advantage{
+                    border: 1px solid gray;
+                    border-radius: 2px;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+}
+
+@media screen and (max-width:600px) {
+    .services{
+        .body{
+            background: none;
+            width: 95%;
+            margin: auto;
+
+            h1{
+                font-size: 20px;
+            }
+            .service-area{
+                .advantage-area{
+                    background: none;
+                    display: grid;
+                    grid-template-columns: repeat(1,1fr);
+                    gap: 7px;
+    
+                    .advantage{
+                        border: 1px solid gray;
+                        border-radius: 4px;
+                        padding: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
