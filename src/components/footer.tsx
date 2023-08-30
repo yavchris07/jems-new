@@ -13,6 +13,7 @@ import twit from "../assets/icons/twit.png";
 // }
 
 function Footer() {
+  
 const [items]=useState<Item[]>(TODOS);
 
   return (

@@ -1,5 +1,6 @@
 //SASS PAGE
 $base-color: #c6538c;
+// $base-color: #ff0006;
 $blac-color:#212121;
 // $back-opacity: rgb(33, 33, 33,.9);
 $back-opacity: rgb(0, 0, 0,.9);
@@ -72,11 +73,11 @@ $white-opacity:#f9f9f9;
         h1{
             padding-top: 220px;
             margin: 0;
-            font-size: 30px;
+            font-size: 20px;
             color: #f9f9f9;
         }
         p{
-            font-size: 18px;
+            font-size: 16px;
             color: $white-opacity;
             font-weight: 400;
             // background: red;
@@ -84,6 +85,9 @@ $white-opacity:#f9f9f9;
             // margin: auto;
             // text-align:justify;
             padding: 1px;
+        }
+        h3{
+            font-size: 14px;
         }
     }
 }
