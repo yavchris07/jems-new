@@ -76,8 +76,11 @@ $white-opacity:#f9f9f9;
             font-size: 20px;
             color: #f9f9f9;
         }
-        p{
+        h3{
             font-size: 16px;
+        }
+        p{
+            font-size: 14px;
             color: $white-opacity;
             font-weight: 400;
             // background: red;
@@ -85,9 +88,6 @@ $white-opacity:#f9f9f9;
             // margin: auto;
             // text-align:justify;
             padding: 1px;
-        }
-        h3{
-            font-size: 14px;
         }
     }
 }
