@@ -23,11 +23,11 @@ const [items]=useState<Item[]>(TODOS);
             {
                 items.map((item,index) =>(
                     <div className='card' key={index}>
-                        <h1>{item.title}</h1>
-                        <span>{item.element}</span>
-                        <span>{item.type}</span>
-                        <span>{item.type1}</span>
-                        <p>{item.resume}</p>
+                      <h1>{item.title}</h1>
+                      <span>{item.element}</span>
+                      <span>{item.type}</span>
+                      <span>{item.type1}</span>
+                      <p>{item.resume}</p>
                     </div>
                 ))
             }
@@ -39,10 +39,10 @@ const [items]=useState<Item[]>(TODOS);
             <div className='control'>
                 <label htmlFor="">Votre adresse mail</label>
                 <input 
-                    type="email" 
-                    name="" 
-                    id="" 
-                    placeholder='Email'
+                  type="email" 
+                  name="" 
+                  id="" 
+                  placeholder='Email'
                 />
                 {/* <label htmlFor="">Message</label>
                 <input 

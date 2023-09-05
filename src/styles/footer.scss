@@ -194,12 +194,12 @@ $white-black:#f7f7f7;
                     color: $white-black;
     
                     h1{
-                        font-size: 17px;
+                        font-size: 15px;
                         color: $white-opacity;
                         width: 200px;
                     }
                     p,span{
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                 }
     
@@ -208,17 +208,17 @@ $white-black:#f7f7f7;
                 padding: 5px;
                 // background: red;
                 h4{
-                    font-size: 15px;
+                    font-size: 14px;
                 }
                 p{
-                    font-size: 13px;
+                    font-size: 12px;
                     margin-bottom: 15px;
                     color: grey;
                 }
                 .control{
                     display: flex;
                     flex-direction: column;
-                    width: 97%;
+                    width: 95%;
                     margin: auto;
                     label{
                         font-size: 12px;
@@ -228,7 +228,7 @@ $white-black:#f7f7f7;
                         border: 2px solid gray;
                         // border: none;
                         border-radius: 5px;
-                        padding: 10px 2px;
+                        padding: 13px 2px;
                         // background: rgb(0, 0, 0);
                         background: none;
                         color: rgb(210, 210, 210);
@@ -236,7 +236,7 @@ $white-black:#f7f7f7;
                         font-size: 17px;
                     }
                     button{
-                        padding: 17px 2px;
+                        padding: 12px 2px;
                         width: 150px;
                         font-size: 14px;
 

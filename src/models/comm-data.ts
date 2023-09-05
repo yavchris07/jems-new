@@ -3,24 +3,24 @@ import Comm from "./comm";
 export const COMM: Comm[] = [
     {
         "id":1,
-        "title":"Energie-électique XXXXXXXXX",
+        "title":"Energie renouvelable",
         "type":"Par paquet",
-        "price":"prix reduit",
+        "price":"A prix reduit",
         "photo":"/assets/er.jpg"
         
     },
     {
         "id":2,
-        "title":"Energie-renouvelable XXXXXXXXX",
+        "title":"Energie-hydraulique",
         "type":"Par paquet",
-        "price":"prix reduit",
+        "price":"A moindre coûts",
         "photo":"/assets/ee2.jpg"
     },
     {
         "id":3,
-        "title":"Energie-renouvelable XXXXXXXXX",
+        "title":"Energie solaire",
         "type":"Par lot",
-        "price":"prix reduit",
+        "price":"selon votre moyen",
         "photo":"/assets/er3.jpg"
     }
 ];

@@ -3,24 +3,24 @@ import Product from "./product";
 export const PRODUCT: Product[] = [
     {
         "id":1,
-        "title":"Nom produit XXXXXXXXX",
-        "type":"Energie-électrique",
-        "price":"50$",
+        "title":"Energie hydraulique",
+        "type":"fiable et durable", 
+        "price":"tout moment",
         "photo":"/assets/ee2.jpg"
         
     },
     {
         "id":2,
-        "title":"Nom produit XXXXXXXXX",
-        "type":"Energie-renouvelable",
-        "price":"200$",
+        "title":"Energie renouvelable",
+        "type":"énergie propre, fiable et durable",
+        "price":"ta portée",
         "photo":"/assets/er.jpg"
     },
     {
         "id":3,
-        "title":"Nom produit XXXXXXXXX",
-        "type":"Energie-renouvelable",
-        "price":"100$",
+        "title":"Energie solaire",
+        "type":"énergie propre, fiable et durable",
+        "price":"seulement un petit montant",
         "photo":"/assets/er1.jpg"
     }
 ];
