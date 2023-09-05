@@ -12,7 +12,6 @@ function ChifferList() {
           <div className='chif' key={index}>
             <h2>{chif.title}</h2>
             <p>{chif.type}</p>
-            <span>{chif.resum}</span>
           </div>
         ))
       } 

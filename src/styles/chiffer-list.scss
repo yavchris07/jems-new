@@ -11,35 +11,39 @@ $white-black:#f7f7f7;
 
 
 .chiffer{
-    width: 85%;
+    width: 90%;
     margin: auto;
     // background: $red;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 18px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
 
     .chif{
         color: $white-kolor;
         // background: $blue;
         margin-top: 100px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         h2{
-            font-size: 40px;
+            font-size: 16px;
         }
-        p{font-weight: 600;}
-        span{font-size: 13px;}
+        p{
+            font-weight: 600;
+            font-size: 12px;
+            color: gray;
+        }
+         
     }
 }
 
 @media screen and (max-width:600px){
     .chiffer{
         width: 98%;
-        // height: 80%;
+        // height: 500px;
         margin: auto;
         // background: $red;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 5px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 4px;
     
         .chif{
             color: $white-kolor;
@@ -48,10 +52,14 @@ $white-black:#f7f7f7;
             margin-bottom: 3px;
             // height: 120px;
             h2{
-                font-size: 40px;
+                font-size: 17px;
                 margin: 10px;
             }
-            p{font-weight: 600;margin: 10px;}
+            p{
+                font-weight: 600;
+                margin: 10px;
+                font-size: 10px;
+            }
             span{
                 font-size: 13px;
                 margin: 14px;

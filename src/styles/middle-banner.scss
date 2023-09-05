@@ -10,7 +10,7 @@ $white-black:#f7f7f7;
 .middle-banner{
     width: 100%;
     height: 400px;
-    background: url('../assets/download\ \(1\).jpeg');
+    background: url('../assets/d1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 10px;
@@ -22,9 +22,10 @@ $white-black:#f7f7f7;
         // padding-top: 20px;
         h3{
             color: $white-black;
-            font-size: 35px;
+            font-size: 20px;
             margin: auto;
-            width: 50%;
+            width: 60%;
+            font-weight: 100;
         }
     }
 }
@@ -32,7 +33,8 @@ $white-black:#f7f7f7;
 @media (max-width:600px){
     .middle-banner{
         width: 100%;
-        background: url('../assets/download\ \(1\).jpeg');
+        height: 500px;
+        background: url('../assets/d1.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
     
@@ -43,11 +45,12 @@ $white-black:#f7f7f7;
             // padding-top: 20px;
             h3{
                 color: $white-black;
-                font-size: 25px;
+                font-size: 15px;
                 margin-top: 10px;
                 width: 100%;
                 // background: red;
                 text-align: center;
+                font-weight: 500;
             }
         }
     }

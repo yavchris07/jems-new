@@ -51,15 +51,15 @@ export default function Services(){
                 <div className='advantage-area'>
 
                     <div className='advantage'>
-                    <p>
-                        <h4>✅ Expertise et expérience : </h4>
+                        <p>
+                            <h4>✅ Expertise et expérience : </h4>
                             Nous disposons d'une équipe hautement qualifiée et expérimentée dans le domaine de l'énergie. 
                             Notre savoir-faire nous permet de fournir des solutions adaptées aux besoins spécifiques de chaque client.
                         </p>
                     </div>
                     <div className='advantage'>
                         <p>
-                        <h4>✅ Engagement envers la durabilité : </h4>
+                            <h4>✅ Engagement envers la durabilité : </h4>
                             Nous sommes déterminés à promouvoir les énergies renouvelables et les pratiques durables. 
                             En choisissant Jems Energy, vous contribuez à la préservation de l'environnement et à la lutte contre le changement climatique.
                         </p>

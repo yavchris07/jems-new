@@ -75,11 +75,12 @@ $white-black:#f7f7f7;
                     color: grey;
                 }
                 input{
-                    // border: 1px solid gray;
-                    border: none;
+                    border: 2px solid gray;
+                    // border: none;
                     border-radius: 5px;
-                    padding: 8px 5px;
-                    background: rgb(0, 0, 0);
+                    padding: 10px 5px;
+                    // background: rgb(0, 0, 0);
+                    background: none;
                     color: rgb(210, 210, 210);
                 }
                 button{
@@ -224,11 +225,12 @@ $white-black:#f7f7f7;
                         color: grey;
                     }
                     input{
-                        // border: 1px solid gray;
-                        border: none;
+                        border: 2px solid gray;
+                        // border: none;
                         border-radius: 5px;
-                        padding: 22px 2px;
-                        background: rgb(0, 0, 0);
+                        padding: 10px 2px;
+                        // background: rgb(0, 0, 0);
+                        background: none;
                         color: rgb(210, 210, 210);
                         //width: 90%;
                         font-size: 17px;
@@ -246,7 +248,7 @@ $white-black:#f7f7f7;
                             background-color: transparent;
                         }
                         p{
-                            font-size: 12px;
+                            font-size: 13px;
                         }
                     }
                 }
@@ -273,7 +275,7 @@ $white-black:#f7f7f7;
             p{
                 padding-top: 20px;
                 color: #f7f7f7;
-                font-size: 16px;
+                font-size: 15px;
             }
             .links{
                 // background: blue;

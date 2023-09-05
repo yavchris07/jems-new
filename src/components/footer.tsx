@@ -35,9 +35,9 @@ const [items]=useState<Item[]>(TODOS);
      
         <div className='mailing'>
             <h4>Nous contacter par mail</h4>
-            <p>Faites nous parvenir vos opinions et suggestions</p>
+            <p>Faites-nous vos mals pour plus de news lettres, Merci </p>
             <div className='control'>
-                <label htmlFor="">Adresse mail</label>
+                <label htmlFor="">Votre adresse mail</label>
                 <input 
                     type="email" 
                     name="" 
@@ -55,7 +55,7 @@ const [items]=useState<Item[]>(TODOS);
                     <input 
                     type="checkbox" 
                     />
-                    <p>Je désire recevoir de mails de votre part</p>
+                    <p>Je désire recevoir plus de mails de votre part</p>
                 </div>
                 <button>Soumettre</button>
             </div>
