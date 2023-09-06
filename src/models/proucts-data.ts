@@ -6,7 +6,7 @@ export const PRODUCT: Product[] = [
         "title":"Energie hydraulique",
         "type":"fiable et durable", 
         "price":"tout moment",
-        "photo":"/assets/ee2.jpg"
+        "photo":"/assets/d3.jpeg"
         
     },
     {
@@ -21,7 +21,7 @@ export const PRODUCT: Product[] = [
         "title":"Energie solaire",
         "type":"énergie propre, fiable et durable",
         "price":"seulement un petit montant",
-        "photo":"/assets/er1.jpg"
+        "photo":"/assets/solaire.jpeg"
     }
 ];
 

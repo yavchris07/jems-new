@@ -2,7 +2,7 @@ import React, {useState } from 'react';
 import '../styles/product-list.scss';
 import PRODUCT from '../models/proucts-data';
 import Product from '../models/product';
-import log from '../assets/images.jpeg'
+import log from '../assets/Energie-electrique.jpg'
 
 function ProductsList() {
 

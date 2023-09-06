@@ -7,7 +7,7 @@ $white-kolor: #fff;
 $white-opacity:#f9f9f9;
 
 .banner1{
-    background: url('../assets/new.jpg') no-repeat;
+    background: url('../assets/new.jpeg') no-repeat;
     background-size: cover;
     height: 350px;
     width: 100%;
@@ -40,7 +40,7 @@ $white-opacity:#f9f9f9;
 
 @media screen and (max-width:600px) {
     .banner1{
-        background: url('../assets/new.jpg') no-repeat;
+        background: url('../assets/new.jpeg') no-repeat;
         background-size: cover;
         height: 470px;
     

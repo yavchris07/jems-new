@@ -6,7 +6,7 @@ export const COMM: Comm[] = [
         "title":"Energie renouvelable",
         "type":"Par paquet",
         "price":"A prix reduit",
-        "photo":"/assets/er.jpg"
+        "photo":"/assets/d1.jpeg"
         
     },
     {
@@ -14,14 +14,14 @@ export const COMM: Comm[] = [
         "title":"Energie-hydraulique",
         "type":"Par paquet",
         "price":"A moindre coûts",
-        "photo":"/assets/ee2.jpg"
+        "photo":"/assets/d2.jpg"
     },
     {
         "id":3,
         "title":"Energie solaire",
         "type":"Par lot",
         "price":"selon votre moyen",
-        "photo":"/assets/er3.jpg"
+        "photo":"/assets/new.jpeg"
     }
 ];
 
