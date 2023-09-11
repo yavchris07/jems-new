@@ -5,7 +5,7 @@ export const COMM: Comm[] = [
         "id":1,
         "title":"Energie renouvelable",
         "type":"Par paquet",
-        "price":"A prix reduit",
+        "price":"A prix réduit",
         "photo":"/assets/d1.jpeg"
         
     },
@@ -24,5 +24,5 @@ export const COMM: Comm[] = [
         "photo":"/assets/new.jpeg"
     }
 ];
-
+//énergie
 export default COMM

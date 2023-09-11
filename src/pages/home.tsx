@@ -17,18 +17,18 @@ function Home() {
       <div className='part-one'>
         <div className='title'>
           <h1>Production</h1>
-          <span>Nous produisons l'energie hydraulique, solaire & renouvelable</span>
+          <span>Nous produisons l'énergie hydraulique, solaire & renouvelable</span>
         </div>
         <ProductsList />
         <div className='title'>
           <h1>Transport</h1>
-          <span>Nous assumons le transport de l'energie hydraulique, solaire & renouvelable</span>
+          <span>Nous assumons le transport de l'énergie hydraulique, solaire & renouvelable</span>
         </div>
         <TransportList />
         <MiddleBanner />
         <div className='title'>
           <h1>Commercialisation</h1>
-          <span>Nous faisons le commerce de l'energie hydraulique, solaire & renouvelable</span>
+          <span>Nous faisons le commerce de l'énergie hydraulique, solaire & renouvelable</span>
         </div>
         <CommList />
       </div>
